@@ -5,7 +5,7 @@
 
 ②以下のsql文を実行する。 CREATE TABLE fruit ( id SERIAL PRIMARY KEY, name TEXT, price INTEGER );
 
-③ターミナルでiimonTest2-B/build/libs/IimonTest2-Bcomplete1-0.0.1-SNAPSHOT.jarを実行する。
+③ターミナルでiimonTest2-A/build/libs/IimonTest2-A-0.0.1-SNAPSHOT.jarを実行する。
 
 ④POST(application/json)で`http://localhost:8080/`に下記情報を送る。 { "name": "apple", "price": 200 }
 
