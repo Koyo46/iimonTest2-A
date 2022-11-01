@@ -5,6 +5,8 @@
 
 ②以下のsql文を実行する。 CREATE TABLE fruit ( id SERIAL PRIMARY KEY, name TEXT, price INTEGER );
 
-③POST(application/json)で`http://localhost:8080/`に下記情報を送る。 { "name": "apple", "price": 200 }
+③ターミナルでiimonTest2-B/build/libs/IimonTest2-Bcomplete1-0.0.1-SNAPSHOT.jarを実行する。
 
-④作成したテーブルにPOSTした情報が保存される。
+④POST(application/json)で`http://localhost:8080/`に下記情報を送る。 { "name": "apple", "price": 200 }
+
+⑤作成したテーブルにPOSTした情報が保存される。
